@@ -14,5 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+    return view('theme.back.app');
+});
+
+Route::get('/vieja', function () {
     return view('welcome');
 });
